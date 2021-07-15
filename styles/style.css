@@ -1,0 +1,125 @@
+ /* google-fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+ /* common styles */
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+ }
+
+ /* header part */
+
+ header:hover{
+     background-color: hotpink;
+     transform:  rotate(360deg);
+     transition: transform 2s ease-in-out;
+ }
+ 
+ header{
+     background-color: #2D25A0;
+ }
+ .header-part{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     overflow: hidden;
+ }
+ .header-info{
+    margin: 207px 102px 169px 156px;
+ }
+ .copa-title{
+     color: #FFFFFF;
+     font-size:60px;
+     line-height: 80px;
+     margin-bottom: 20px;
+ }
+ .link-button{
+     text-decoration: none;
+     color: #FFFFFF;
+     background-color:  #E02C6D;
+     font-weight: 500px;
+     width: 150px;
+     height: 50px;
+     padding: 10px 20px;
+ }
+ .link-button i{
+     margin-left: 15px;
+ }
+ .side-banner{
+     height: 400px;
+     width: 550px;
+     margin:150px 140px 80px 0;
+ }
+
+ /* players part start */
+
+ main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 0;
+ }
+ .container{
+    
+    background-color: #FFFFFF;
+    width: 1050px;
+    margin: 70px 210px 43px 180px;
+    margin-bottom: 95px;
+ }
+ .players{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0;
+}
+.player{
+    margin-right: 30px;
+    margin-bottom: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 10px;
+}
+.player-name{
+    margin: 10px 15px 0 15px;
+}
+.player-info{
+    font-size: 15px;
+    color: grey;
+    margin: 10px 15px 30px 15px;
+}
+
+/* footer secation */
+
+.footer-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 63px;
+}
+.footer-logo{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.icon-links{
+    margin-bottom: 20px;
+}
+.icon-bg{
+    background-color: rgb(230, 230, 230);
+    color: lightslategray;
+    margin: 7px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.copyright{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0px;
+}
